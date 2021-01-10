@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Class="MySQL_XeDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.Xe" Member="Xes">
+    <Type Name="Xe">
+      <Column Name="MaXe" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenXe" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MaLoaiXe" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="MaNSX" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="NgayNhap" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GiaBan" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaKho" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="BaoHanh" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SoKhung" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="SoMay" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="Mau" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="LoaiDongCo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BoTriXyLanh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DungTichXyLanh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KhoiDong" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BinhXang" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

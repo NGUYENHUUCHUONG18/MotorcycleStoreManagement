@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="MySQL_NhanVien">
+  <DataContextMoniker Name="/MySQL_NhanVienDataContext" />
+  <nestedChildShapes>
+    <classShape Id="90b89f6b-c342-4a36-9285-aafb36b081c2" absoluteBounds="0.5, 0.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/MySQL_NhanVienDataContext/NhanVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1fda3a39-2c39-4822-9c10-a3b532d078b7" absoluteBounds="0.515, 1.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
